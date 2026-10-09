@@ -1,0 +1,6 @@
+# Windows may refuse replacing existing npm directories with symlinks.
+nodeLinker: hoisted
+
+# Vite and tsx need esbuild's platform executable; approve the locked version only.
+allowBuilds:
+  esbuild@0.28.2: true
